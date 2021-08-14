@@ -2,6 +2,22 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,react,node,webstorm+all,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,react,node,webstorm+all,git
 
+### yarn ###
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
